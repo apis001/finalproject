@@ -15,8 +15,8 @@ app.config["SECRET_KEY"]="secretkey"
 vc = cv2.VideoCapture(0)
 
 
-github_blueprint = make_github_blueprint(client_id='ffca3dea982befaa2738',
-                                         client_secret='0793843bad421a7116a84e29af2b43c028b57de6')
+github_blueprint = make_github_blueprint(client_id='69149c692d8813491c06',
+                                         client_secret='3f0a6bfc6363d32acced4f2737a4f4c84d0e8888')
 
 app.register_blueprint(github_blueprint, url_prefix='/github_login')
 
